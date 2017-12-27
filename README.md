@@ -11,6 +11,11 @@
 $ yarn run build:front
 ```
 
+# 開発用サーバーの起動方法
+```shell-session
+$ yarn run develop
+```
+
 
 # editorconfig
 　皆様すごく2 spaces indentationが大好きなようなので、良いでしょう。
