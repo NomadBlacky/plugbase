@@ -4,7 +4,7 @@
   "description": "プラグイン拡張できるWebベースプロジェクト管理アプリを自分たちで用意しようプロジェクト。",
   "main": "index.js",
   "repository": "https://github.com/Kuzugunshi/plugbase",
-  "author": "sango-study and FJB",
+  "author": "FJB with sango-study",
   "license": "MIT",
   "private": false,
   "scripts": {
