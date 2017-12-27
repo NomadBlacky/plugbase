@@ -2,7 +2,7 @@
     "compilerOptions": {
         "declaration": true,
         "sourceMap": true,
-        "outDir": "./dist",
+        "outDir": "./dist/js",
         "module": "es6",
         "target": "es5",
         "strict": true,
