@@ -1,4 +1,4 @@
-const Path = require('path')
+const Path = require('path');
 
 module.exports = [
   {
@@ -10,6 +10,16 @@ module.exports = [
           test: /\.ts$/,
           use: 'ts-loader',
           exclude: /node_modules/,
+        },
+        {
+          test: /\.scss/,
+          use: [
+            'style-loader',
+            {
+              loader: 'css-loader', options: { url: false },
+            },
+            'sass-loader'
+          ]
         }
       ]
     },
