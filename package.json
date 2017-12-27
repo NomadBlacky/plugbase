@@ -1,0 +1,13 @@
+{
+  "name": "plugbase",
+  "version": "0.0.1",
+  "description": "プラグイン拡張できるWebベースプロジェクト管理アプリを自分たちで用意しようプロジェクト。",
+  "main": "index.js",
+  "repository": "https://github.com/Kuzugunshi/plugbase",
+  "author": "sango-study and FJB",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+      "build": "echo this is not implemented yet now"
+  }
+}
