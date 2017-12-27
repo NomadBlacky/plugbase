@@ -1,18 +1,18 @@
 {
-    "compilerOptions": {
-        "declaration": true,
-        "sourceMap": true,
-        "outDir": "./dist/js",
-        "module": "es6",
-        "target": "es5",
-        "strict": true,
-        "noImplicitAny": true,
-        "strictNullChecks": true,
-        "noImplicitThis": true,
-        "alwaysStrict": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "noImplicitReturns": true,
-        "noFallthroughCasesInSwitch": true
-    }
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./dist/js",
+    "module": "es6",
+    "target": "es5",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  }
 }
