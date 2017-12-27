@@ -12,7 +12,8 @@
     "develop": "webpack-dev-server --inline --hot"
   },
   "dependencies": {
-    "vue": "^2.5.13"
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
