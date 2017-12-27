@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build:front": "webpack --config webpack.config.js"
+    "build:front": "webpack --config webpack.config.js",
+    "develop": "webpack-dev-server --inline --hot"
   },
   "dependencies": {
     "vue": "^2.5.13"
