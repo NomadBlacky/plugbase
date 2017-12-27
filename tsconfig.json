@@ -1,7 +1,4 @@
 {
-    "files": [
-        "src/test.ts"
-    ],
     "compilerOptions": {
         "declaration": true,
         "sourceMap": true,
