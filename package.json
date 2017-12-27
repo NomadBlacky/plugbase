@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "echo this is not implemented yet now"
+    "build:front": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "vue": "^2.5.13"

@@ -6,3 +6,7 @@
 ここは開発用ブランチだよ。
 
 
+# フロントエンドのビルド方法
+```shell-session
+$ yarn run build:front
+```
