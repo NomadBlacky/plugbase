@@ -24,3 +24,10 @@ editorconfigを使います。
 このプロジェクトのルートにある`.editorconfig`の設定が読み込まれます。
 
 - [GitHub - editorconfig/editorconfig-vim: EditorConfig plugin for Vim](https://github.com/editorconfig/editorconfig-vim)
+
+
+# Backend
+## ビルド/起動
+```shell-session
+$ yarn run build:back && yarn run start:back
+```
