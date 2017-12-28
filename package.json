@@ -8,10 +8,15 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build:front": "webpack --config webpack.config.js"
+    "build:front": "webpack --config webpack.config.js",
+    "develop": "webpack-dev-server --inline --hot"
   },
   "dependencies": {
-    "vue": "^2.5.13"
+    "vue": "^2.5.13",
+    "vue-class-component": "^6.1.2",
+    "vue-loader": "^13.6.1",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.13"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
