@@ -29,3 +29,26 @@ editorconfigを使います。
 このプロジェクトのルートにある`.editorconfig`の設定が読み込まれます。
 
 - [GitHub - editorconfig/editorconfig-vim: EditorConfig plugin for Vim](https://github.com/editorconfig/editorconfig-vim)
+
+
+# :notes: Project Specs :notes:
+## プラグイン機構
+
+- 各プラグインは一意なハッシュ値に紐づく
+
+TODO: 「ロード済みプラグイン」について
+
+TODO: 「未ロードプラグイン」について
+
+## ディレクトリ構成
+
+- `./plugins`
+    - プラグインを置く場所
+        - 例えばあるロード済みプラグイン`chat.js`があるとして、
+          それは`./plugins/{hash-code}/chat.js`に配置される
+        - 例えばある未ロードプラグイン`reversi.js`があるとして、
+          それは`./plugins/reversi.js`に配置される
+            - `./plugins/reversi.js`はバックエンドの起動時に
+              `./plugins/{hash-code}/reversi.js`へ移され、ロード済みプラグインとなる
+            - ここのプラグイン名（e.g. `reversi.js`）はワイルドカード表現`*.js`にマッチする
+              （つまり「プラグインは単一のJavaScriptファイルだよ！」という意味です。ねこはいます）
