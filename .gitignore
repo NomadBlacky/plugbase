@@ -2,6 +2,3 @@
 Thumbs.db
 node_modules/
 dist/**
-backend/plugin/*
-!backend/plugin/.gitkeep
-!backend/plugin/README.md
