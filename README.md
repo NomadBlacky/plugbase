@@ -6,6 +6,19 @@
 ここは開発用ブランチだよ。
 
 
+# git-cloneするとき
+```shell-session
+$ git clone https://github.com/Kuzugunshi/plugbase --recursive
+```
+
+of
+
+```haskell
+$ git clone https://github.com/Kuzugunshi/plugbase
+$ git submodule update --init
+```
+
+
 # フロントエンドのビルド方法
 ```shell-session
 $ yarn run build:front
