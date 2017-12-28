@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <h1>{{ msg }}</h1>
+      <div class="hoge">
+       cc
+      </div>
   </div>
 </template>
 
